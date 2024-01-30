@@ -1,0 +1,47 @@
+[
+    {
+        "sender": "~ You",
+        "message": "Hello there!",
+        "timestamp": "10:10 am",
+        "placeholder":"https://cdn-icons-png.flaticon.com/128/4140/4140039.png"
+    },
+    {
+        "sender": "~ Alice Carey",
+        "message": "Hi John!",
+        "timestamp": "10:20 am",
+        "placeholder":"https://cdn-icons-png.flaticon.com/128/4140/4140047.png"
+    },
+    {
+        "sender": "~ You",
+        "message": "How are you?",
+        "timestamp": "12:10 pm",
+        "placeholder":"https://cdn-icons-png.flaticon.com/128/4140/4140039.png"
+    },
+    {
+        "sender": "~ Alice Carey",
+        "message": "I am fine what about you?",
+        "timestamp": "10:20 am",
+        "placeholder":"https://cdn-icons-png.flaticon.com/128/4140/4140047.png"
+    },
+    {
+        "sender": "~ Alice Carey",
+        "message": "Were you selected for that frontend Internship?",
+        "timestamp": "10:20 am",
+        "placeholder":"https://cdn-icons-png.flaticon.com/128/4140/4140047.png"
+    },
+    {
+        "sender": "~ You",
+        "message": "Yes,😊it was great to work with talented team. It was my best experience.",
+        "timestamp": "12:10 pm",
+        "placeholder":"https://cdn-icons-png.flaticon.com/128/4140/4140039.png"
+    },
+    {
+        "sender": "~ You",
+        "message": "I am looking for more oppurtunities now.",
+        "timestamp": "12:10 pm",
+        "placeholder":"https://cdn-icons-png.flaticon.com/128/4140/4140039.png"
+    }
+    
+    
+     
+]
