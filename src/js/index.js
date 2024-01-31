@@ -1,6 +1,6 @@
 async function fetchMessages() {
   try {
-    const response = await fetch("/js/messages.json");
+    const response = await fetch("./js/messages.json");
     const messages = await response.json();
     return messages;
   } catch (error) {
@@ -35,7 +35,7 @@ async function displayMessages() {
 
 async function fetchContacts() {
   try {
-    const response = await fetch("js//contacts.json");
+    const response = await fetch("./js/contacts.json");
     const contacts = response.json();
     return contacts;
   } catch (error) {
