@@ -90,5 +90,24 @@ async function displayContacts(){
 
 
 
+const navToggle = document.querySelector(".hidden");
+const sidebar = document.querySelector(".sidebar");
+
+navToggle.addEventListener('click', function(event){
+    event.stopPropagation(); 
+    sidebar.classList.toggle("show_nav");
+});
+
+// Close the sidebar when clicking outside of it
+document.body.addEventListener('click', function () {
+    sidebar.classList.remove("show_nav");
+});
+
+// Prevents clicks inside the sidebar from closing it
+sidebar.addEventListener('click', function (event) {
+    event.stopPropagation();
+});
+
+
 displayMessages();
 displayContacts();

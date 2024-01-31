@@ -36,7 +36,7 @@ html,body{
 
 .chatscreen{
     display: flex;
-  
+    transition: all 0.3s ease;
 }
 
 
@@ -51,6 +51,8 @@ html,body{
     height: 100vh;
     border-radius:0px  20px  20px 0;
     box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #313131;
+    transition: all 0.3s ease;
 }
 .input-group{
     width: 100%;
@@ -65,7 +67,7 @@ html,body{
     width:100%;
     max-height: 74vh;
     padding: 10px;
-    min-width: 450px;
+   
     overflow: auto;
    
 }
@@ -90,14 +92,15 @@ html,body{
     border-radius: 10px;
     color: white; 
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
   }
 
   .contact-box:nth-child(1){
-    background-color: #313131;
+    background-color: #747474;
   }
 
   .contact-box:hover{
-    background-color: #313131;
+    background-color: #737373;
   }
 
 
@@ -125,6 +128,7 @@ html,body{
     padding: 10px 19px;
     border-radius: 10px;
     width: 100%;
+    transition: all 0.3s ease;
     margin-bottom: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   }
@@ -149,6 +153,7 @@ html,body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: all 0.3s ease;
   }
 
 
@@ -323,7 +328,7 @@ html,body{
 
 
 .hidden{
-    display: none;
+    display: none !important;
     
 }
 
@@ -332,14 +337,65 @@ html,body{
   .sidebar{
     position: absolute;
     margin-left: -300px;
+    transition: all 0.3s ease;
   }
   .messages{
     width: 100vw;
+    justify-content: space-between;
+    height: 100vh;
   }
 
   .hidden{
-    padding: 10px;
-    display: block;
+    padding:25px 10px;
+    display: block !important;
   }
 
+  .box-container{
+    font-size: small;
+  }
+
+  .box-pic{
+    align-items: center;
+  }
+  .box-pic img{
+    height: 30px;
+  }
+  .icons{
+    font-size: 20px;
+  }
+
+  .contact-details p{
+font-size:small;
+  }
+
+  .icons{
+    gap: 10px;
+  }
+
+  .show_nav{
+    margin-left:0;
+    transition: all 0.3s ease;
+    background-color: #313131;
+  }
+
+  
+
+  
+}
+
+@media only screen and (max-width:400px){
+    .sidebar{
+        min-width: 230px;
+    }
+
+    .search-box{
+        width: 200px;
+    }
+    .search-button{
+        margin-left: -200px;
+    }
+
+    .contact-box img{
+        height: 50px;
+    }
 }
