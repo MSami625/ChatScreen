@@ -1,1 +1,1 @@
-Intership Project M Sami.
+Internship Project M Sami.
