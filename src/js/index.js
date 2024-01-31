@@ -1,6 +1,6 @@
 async function fetchMessages() {
   try {
-    const response = await fetch("js/messages.json");
+    const response = await fetch("messages.json");
     const messages = await response.json();
     return messages;
   } catch (error) {
